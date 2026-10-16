@@ -13,147 +13,157 @@
     }
   </style>
 
-  <body>
-    <!-- NAVBAR -->
-    <div
-      class="px-[40px] py-[16px] flex justify-between items-center border-b-[1px] border-[#E5E8EB]"
-    >
-      <h1 class="cursor-pointer font-bold text-[32px]">DibiEdu</h1>
-      <div class="flex items-center gap-[36px]">
-        <ul class="hidden md:flex gap-[36px]">
-          <li><a class="font-bold" href="">Home</a></li>
-          <li><a class="font-bold" href="">Courses</a></li>
-          <li><a class="font-bold" href="">About</a></li>
-          <li><a class="font-bold" href="">Contact</a></li>
-        </ul>
-        <button
-          class="px-[16px] py-[8px] bg-[#125CED] rounded-[8px] text-white font-bold cursor-pointer"
-        >
-          Sign Up
-        </button>
-      </div>
-    </div>
-    <!-- CONTAINER -->
-    <div class="max-w-[960px] m-auto p-[16px] md:p-0">
-      <!-- HERO -->
+  <body class="">
+    <div class="flex">
+      <!-- ASIDE -->
       <div
-        class="my-[20px] bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/asset/hero-bg.png)] text-white h-[480px] flex items-center rounded-[8px]"
+        class="hidden border-1 gap-4 border-gray-300 md:flex md:flex-col py-4 px-10 rounded-lg"
       >
-        <div class="text-center p-[16px]">
-          <h1 class="text-[48px] font-bold">
-            Unlock Your Potential with EduLearn
-          </h1>
-          <p class="mt-[8px]">
-            Embark on a journey of knowledge and skill development with our
-            comprehensive online courses. Learn at your own pace, anytime,
-            anywhere.
-          </p>
-          <button
-            class="mt-[8px] bg-[#125CED] text-white font-bold p-[20px] rounded-[8px]"
-          >
-            Start Learning
-          </button>
-        </div>
-      </div>
-      <!-- ABOUT US -->
-      <div class="my-[40px]">
-        <div class="">
-          <h2 class="text-[36px] font-bold">Why Choose EduLearn?</h2>
-          <p>
-            Our platform is designed to provide a seamless and effective
-            learning experience, ensuring you gain the skills you need to
-            succeed.
-          </p>
-        </div>
-        <div class="flex gap-[8px] overflow-x-auto mt-[20px]">
-          <div
-            class="flex-[0_0_calc((960px-(8px*2))/3)] border-[1px] border-[#e2e8f0] rounded-[8px] p-[16px]"
-          >
-            <img src="asset/chapter.png" alt="" />
-            <h3 class="font-bold mt-[8px]">Online Material</h3>
-            <p class="mt-[8px]">
-              Access a vast library of high-quality learning materials,
-              including videos, articles, and interactive content.
-            </p>
-          </div>
-          <div
-            class="flex-[0_0_calc((960px-(8px*2))/3)] border-[1px] border-[#e2e8f0] rounded-[8px] p-[16px]"
-          >
-            <img src="asset/proofreading.png" alt="" />
-            <h3 class="font-bold mt-[8px]">Quizzes & Assignments</h3>
-            <p class="mt-[8px]">
-              Test your knowledge and reinforce your learning with engaging
-              quizzes and practical assignments.
-            </p>
-          </div>
-          <div
-            class="flex-[0_0_calc((960px-(8px*2))/3)] border-[1px] border-[#e2e8f0] rounded-[8px] p-[16px]"
-          >
-            <img src="asset/license.png" alt="" />
-            <h3 class="font-bold mt-[8px]">Certificates</h3>
-            <p class="mt-[8px]">
-              Earn certificates upon completion of courses, showcasing your
-              achievements and enhancing your credentials.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- FEATURED -->
-      <div class="my-[40px]">
-        <h3 class="text-[22px] font-bold my-[20px]">Featured Courses</h3>
-        <div class="flex overflow-x-auto gap-[8px] w-full max-w-[960px]">
-          <div class="flex-[0_0_calc((960px-(8px*2))/3)]">
-            <img
-              class="w-full h-[169px] object-cover object-cover rounded-[8px]"
-              src="asset/web.png"
-              alt=""
-            />
-            <h4 class="font-bold mt-[8px]">Web Development Fundamentals</h4>
-            <p class="mt-[8px] text-[#4D6699]">
-              Learn the basics of HTML, CSS, and JavaScript to build your first
-              website.
-            </p>
-          </div>
-          <div class="flex-[0_0_calc((960px-(8px*2))/3)]">
-            <img
-              class="w-full h-[169px] object-cover object-cover rounded-[8px]"
-              src="asset/JS.png"
-              alt=""
-            />
-            <h4 class="font-bold mt-[8px]">Web Development Fundamentals</h4>
-            <p class="mt-[8px] text-[#4D6699]">
-              Learn the basics of HTML, CSS, and JavaScript to build your first
-              website.
-            </p>
-          </div>
-          <div class="flex-[0_0_calc((960px-(8px*2))/3)]">
-            <img
-              class="w-full h-[169px] object-cover object-cover rounded-[8px]"
-              src="asset/Responsive.png"
-              alt=""
-            />
-            <h4 class="font-bold mt-[8px]">Web Development Fundamentals</h4>
-            <p class="mt-[8px] text-[#4D6699]">
-              Learn the basics of HTML, CSS, and JavaScript to build your first
-              website.
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- VIEW ALL -->
-      <div class="flex justify-center my-[40px]">
-        <button class="font-bold bg-[#e8ebf2] p-[16px] rounded-[8px]">
-          View All Courses
-        </button>
-      </div>
-      <!-- FOOTER -->
-      <div class="text-[#4D6699] text-center my-[40px]">
-        <ul class="flex justify-around">
-          <li><a href="">Privacy Policy</a></li>
-          <li><a href="">Terms of Serivce</a></li>
-          <li><a href="">Contact Us</a></li>
+        <p>LOGO</p>
+        <ul class="flex flex-col gap-4">
+          <li><a href="" class="font-bold hover:text-sky-500">Dashboard</a></li>
+          <li><a href="" class="font-bold hover:text-sky-500">Course</a></li>
+          <li><a href="" class="font-bold hover:text-sky-500">Class</a></li>
         </ul>
-        <p class="mt-[10px]">2026 DibiEdu. All rights reserved.</p>
+      </div>
+
+      <div class="w-full">
+        <!-- NAV -->
+
+        <div
+          class="p-4 relative w-full flex items-center justify-between border-1 border-gray-300"
+        >
+          <p class="font-bold">Daniel Oscar Kantong</p>
+          <input type="checkbox" class="peer hidden" id="menu-toggle" />
+          <label
+            for="menu-toggle"
+            class="md:hidden flex flex-col gap-1 cursor-pointer"
+          >
+            <span class="w-5 h-1 bg-sky-500 rounded-sm"></span>
+            <span class="w-5 h-1 bg-sky-500 rounded-sm"></span>
+            <span class="w-5 h-1 bg-sky-500 rounded-sm"></span>
+          </label>
+          <ul
+            class="absolute peer-checked:flex flex-col hidden top-full bg-white w-full"
+          >
+            <li class="p-4"><a href="">Dashboard</a></li>
+            <li class="p-4"><a href="">Course</a></li>
+            <li class="p-4"><a href="">Class</a></li>
+          </ul>
+        </div>
+
+        <div class="p-4 md:flex items-start">
+          <div
+            class="flex flex-col items-center p-10 text-center border-1 border-gray-300 rounded-lg"
+          >
+            <img
+              src="asset/test.jpg"
+              alt=""
+              class="w-30 aspect-square object-cover object-top rounded-full"
+            />
+            <div class="flex gap-4 my-4">
+              <div class="flex items-start gap-1">
+                <img src="asset/edit.png" alt="" class="" />
+                <button class="text-sky-500 font-bold cursor-pointer">
+                  Change
+                </button>
+              </div>
+              <div class="flex flex-start gap-1">
+                <img src="asset/delete.png" alt="" />
+                <button class="text-red-500 font-bold cursor-pointer">
+                  Remove
+                </button>
+              </div>
+            </div>
+            <p>Provide clear photos! Hiring Partners will see you</p>
+          </div>
+          <div class="p-4 md:flex-1">
+            <strong>Personal Info</strong>
+            <div class="flex flex-col gap-2 p-4">
+              <label for="username">Username</label>
+              <input
+                type="text"
+                placeholder="daniel-oscar"
+                id="username"
+                class="bg-gray-200 py-2 px-4 rounded-full placeholder:text-gray-900"
+              />
+            </div>
+            <div class="flex flex-col gap-2 p-4">
+              <label for="email">Email</label>
+              <input
+                disabled
+                type="text"
+                placeholder="danieloscarkantong@gmail.com"
+                id="email"
+                class="bg-gray-200 py-2 px-4 rounded-full placeholder:text-gray-900"
+              />
+              <div class="">
+                <span
+                  >✅ Email verified.
+                  <a class="text-sky-900 font-bold" href=""
+                    >Change email?</a
+                  ></span
+                >
+              </div>
+            </div>
+            <div class="flex flex-col gap-2 p-4">
+              <label for="fullname">Fullname</label>
+              <input
+                type="text"
+                placeholder="Daniel Oscar Kantong"
+                id="fullname"
+                class="bg-gray-200 py-2 px-4 rounded-full placeholder:text-gray-900"
+              />
+            </div>
+            <div class="flex flex-col gap-2 p-4">
+              <label for="headline">Headline</label>
+              <input
+                type="text"
+                placeholder="Type here....."
+                id="headline"
+                class="bg-gray-200 py-2 px-4 rounded-full placeholder:text-gray-900"
+              />
+              <span class="text-gray-500"
+                >You can fill in the headline with your area of interest or the
+                job you want</span
+              >
+            </div>
+            <div class="flex flex-col gap-2 p-4">
+              <label for="headline">Headline</label>
+              <textarea
+                name=""
+                id=""
+                class="bg-gray-200 py-2 px-4 rounded-lg h-20 placeholder:text-gray-900"
+                placeholder="Write evertyhting about you"
+              ></textarea>
+            </div>
+            <div class="flex flex-row gap-4 p-4 w-full">
+              <div class="flex flex-1 flex-col gap-2">
+                <label for="headline">Place of birth</label>
+                <input
+                  type="text"
+                  placeholder="Type here"
+                  id="headline"
+                  class="bg-gray-200 py-2 px-4 rounded-full placeholder:text-gray-900"
+                />
+              </div>
+              <div class="flex flex-1 flex-col gap-2">
+                <label for="headline">Date of birth</label>
+                <input
+                  type="date"
+                  placeholder="Type here....."
+                  id="headline"
+                  class="bg-gray-200 py-2 px-4 rounded-full placeholder:text-gray-900"
+                />
+              </div>
+            </div>
+            <button
+              class="font-bold bg-sky-500 w-full py-2 rounded-full text-white"
+            >
+              Save
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
